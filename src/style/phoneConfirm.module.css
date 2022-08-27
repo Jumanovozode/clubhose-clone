@@ -1,0 +1,80 @@
+.PhoneConfirmContiner{
+    padding: 3em 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f0e4;
+    position: relative;
+}
+.PhoneConfirmContiner h1{
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color:  var(--textColor);
+
+}
+.PhoneConfirmContiner p {
+    font-size: .775em;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    width: 100%;
+    max-width: 270px;
+    text-align: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.PhoneConfirmContiner p span {
+    font-weight: 500;
+}
+/* .img{
+    width: 100px;
+    height: 100px;
+} */
+
+.notificationContainer{
+    border-radius: 1em;
+    background-color: white;
+    box-shadow:  0px 0px  5px #cccccc;
+}
+.notificationContainer h1 {
+    font-size: 1em;
+    font-weight: 500;
+    color: #000000;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.3em;
+}
+.notificationContainer p {
+    font-size: 0.825em;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: auto;
+}
+
+.notificationContainer .action_btn {
+    position: relative;
+    display: flex;
+    
+}
+.notificationContainer .action_btn a {
+    
+    
+    width: 100%;
+    padding: 0.5em;
+    border-top: 1px solid #cccccc;
+    /* color:  var(--btnBgColor); */
+}
+.notificationContainer .action_btn > a:first-child {
+    border-right:  1px solid #cccccc;
+}
+.hand_icon{
+    position: absolute;
+    margin-top: 10px;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+}

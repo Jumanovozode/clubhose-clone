@@ -1,0 +1,83 @@
+/* .profileContainer {
+    
+    padding-top: 5em;
+} */
+.style{
+    padding: 0 0.5em;
+}
+.ssss{
+    padding-top: 3em;
+
+}
+.actionBtn {
+    position: sticky;
+}
+.actionBtn svg {
+    font-size: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+/* .margin {
+    margin-left: 30px;
+} */
+.profile_image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 2.2em;
+}
+.actionBtn > svg:last-child {
+    margin-right: 0;
+}
+.ssss h4 {
+    font-size: 1.5em;
+    color: var(--textColor);
+    margin: 0.5em 0 0.1em 0;
+}
+.ssss p {
+    font-size: 1.1em;
+    color: #aaaaaa;
+    margin: 0;
+}
+.follow {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 2.5em;
+}
+.follow > p:first-child{
+    margin-right: 2.5em;
+}
+.follow p span {
+    font-weight: 500;
+    color: var(--textColor);
+    margin-right: 0.2em;
+    font-size: 1.3em;
+}
+.ssss button {
+    border: none;
+    background-color: transparent;
+    color: rgb(127, 127, 233);
+    margin-bottom: 2.5em;
+}
+button {
+    border: none;
+}
+.follow button {
+    margin-right: 10px;
+}
+.nominated {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.nominated img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 1em;
+    margin-right: 0.5em;
+}
+.bottom{
+    margin-bottom: 40px;
+    margin-right: 10px;
+}

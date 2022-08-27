@@ -1,0 +1,21 @@
+.ozod{
+    text-align: center;
+    margin: 200px 0px;
+    color: white;
+    
+}
+.ozod h1 {
+    color: white;
+    text-decoration: none;
+}
+
+  .bodom{
+    position: relative;
+  }
+  .backBtn{
+    position: absolute;
+    margin-bottom: 490px;
+    margin-right: 300px;
+    width: 40px;
+    height: 20px;
+  }
